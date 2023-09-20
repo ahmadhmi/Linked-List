@@ -71,6 +71,36 @@ public class LinkedList {
         Node node = first.next;
         first.next = null;
         first = node;
-        
+
     }
+
+    public void print(){
+        Node node = first;
+        for (int i = 0; i < size; i++ ){
+            System.out.println(node.value);
+            node = node.next;
+        }
+    }
+
+    public void removeLast(){
+        if (isEmpty())
+            throw new NoSuchElementException();
+        if (first == last) {
+            first = last = null;
+            return;
+        }
+
+        Node current = first;
+
+        while(current != null){
+            if (current.next == last){
+                last = current;
+                current.next = null;
+            }
+            current = current.next;
+        }
+        size--;
+    }
+
+    
 }
