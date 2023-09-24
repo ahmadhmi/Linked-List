@@ -133,4 +133,26 @@ public class LinkedList {
         first = previous ;
     }
 
+    public int kthNode(int k){
+        if (isEmpty())
+            throw new IllegalStateException();
+
+        Node current = first;
+        Node second = current;
+        for (int i = 1; i < k; i++){
+            second = second.next;
+            if (second == null)
+                throw new IllegalArgumentException();
+        }
+
+        while (second.next != null){
+            current = current.next;
+            second = second.next;
+        }
+
+        return current.value;
+
+    }
+
+
 }

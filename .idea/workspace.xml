@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71b02acc-9cb9-4551-9349-70180e356275" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ahmad/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ahmad/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ahmad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ahmad/Main.java" afterDir="false" />
     </list>
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ahmad/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -30,13 +29,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ahmad/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
               <folding>
+                <element signature="method#addLast#0;class#LinkedList#0" />
                 <element signature="method#addFirst#0;class#LinkedList#0" />
                 <element signature="method#indexOf#0;class#LinkedList#0" />
                 <element signature="method#removeFirst#0;class#LinkedList#0" />
+                <element signature="method#print#0;class#LinkedList#0" />
                 <element signature="method#removeLast#0;class#LinkedList#0" />
+                <element signature="method#toArray#0;class#LinkedList#0" />
+                <element signature="method#reverse#0;class#LinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -58,8 +61,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/ahmad/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/ahmad/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ahmad/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/ahmad/Main.java" />
       </list>
     </option>
   </component>
@@ -149,7 +152,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4531616" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -173,16 +176,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ahmad/Main.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/ahmad/LinkedList.java</url>
           <line>124</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/ahmad/LinkedList.java</url>
+          <line>76</line>
+          <properties class="com.ahmad.LinkedList" method="print">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -191,20 +196,24 @@
     <entry file="file://$PROJECT_DIR$/src/com/ahmad/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ahmad/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ahmad/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+        <state relative-caret-position="216">
+          <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
           <folding>
+            <element signature="method#addLast#0;class#LinkedList#0" />
             <element signature="method#addFirst#0;class#LinkedList#0" />
             <element signature="method#indexOf#0;class#LinkedList#0" />
             <element signature="method#removeFirst#0;class#LinkedList#0" />
+            <element signature="method#print#0;class#LinkedList#0" />
             <element signature="method#removeLast#0;class#LinkedList#0" />
+            <element signature="method#toArray#0;class#LinkedList#0" />
+            <element signature="method#reverse#0;class#LinkedList#0" />
           </folding>
         </state>
       </provider>

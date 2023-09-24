@@ -14,8 +14,6 @@ public class Main {
         list.addLast(50);
         list.addLast(60);
         list.addLast(70);
-        list.reverse();
-        int[] array = list.toArray();
-        System.out.println(Arrays.toString(array));
+        System.out.println(list.kthNode(8));
     }
 }
