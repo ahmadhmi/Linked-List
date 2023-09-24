@@ -102,5 +102,35 @@ public class LinkedList {
         size--;
     }
 
-    
+    public int[] toArray(){
+        int[] array = new int[size];
+        Node current = first;
+        int i = 0;
+        while(current != null){
+            array[i] = current.value;
+            current = current.next;
+            i++;
+        }
+        return array;
+    }
+
+    public void reverse(){
+        // [10,20,30,40]
+
+        if (size == 0)
+            return;
+
+        Node previous = first;
+        Node current = previous.next;
+        while (current != null){
+            Node next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+        last = first;
+        last.next = null;
+        first = previous ;
+    }
+
 }
